@@ -9,7 +9,7 @@ public class Home {
     public static Cat createNewCat(String name) {
         Cat cat = new Cat();
         cat.name = name;
-        return name;
+        return cat;
     }
 
     public static Cat createNewCatWithDefaultConstructor(String name) {
