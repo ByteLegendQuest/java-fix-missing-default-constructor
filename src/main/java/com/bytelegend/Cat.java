@@ -3,7 +3,7 @@ package com.bytelegend;
 public class Cat {
     public String name;
 
-    Cat () {}
+    Cat () { }
 
     public Cat(String name) {
         name = name;
