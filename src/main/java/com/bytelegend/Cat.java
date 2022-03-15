@@ -6,7 +6,7 @@ public class Cat {
     Cat () { }
 
     public Cat(String name) {
-        name = name;
+        this.name = name;
     }
 
     @Override
