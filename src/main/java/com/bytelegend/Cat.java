@@ -7,7 +7,7 @@ public class Cat {
         this("");
     }
     public Cat(String name) {
-        name = name;
+        this.name = name;
     }
 
     @Override
