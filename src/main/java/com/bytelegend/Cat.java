@@ -7,6 +7,10 @@ public class Cat {
         name = name;
     }
 
+    public Cat() {
+        name = "";
+    }
+
     @Override
     public String toString() {
         return "Cat(" + name + ")";
