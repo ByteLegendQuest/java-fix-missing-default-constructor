@@ -7,7 +7,7 @@ public class Cat {
         this.name = name;
     }
     public Cat() {
-        this("")
+        this("");
     }
 
     @Override
