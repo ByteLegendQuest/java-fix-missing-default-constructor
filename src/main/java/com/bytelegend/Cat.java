@@ -3,8 +3,11 @@ package com.bytelegend;
 public class Cat {
     public String name;
 
+    Cat() {
+        this("");
+    }
     public Cat(String name) {
-        name = name;
+        this.name = new String(name);
     }
 
     @Override
