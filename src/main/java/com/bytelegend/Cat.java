@@ -11,4 +11,8 @@ public class Cat {
     public String toString() {
         return "Cat(" + name + ")";
     }
+
+    public Cat() {
+        this("");
+    }
 }
