@@ -12,6 +12,6 @@ public class Cat {
         return "Cat(" + name + ")";
     }
 
-    public Cat() {
+    public Cat(){
     }
 }
