@@ -12,7 +12,6 @@ public class Cat {
     }
     
     public Cat() {
-        this.name = "";
     }
 
     @Override
