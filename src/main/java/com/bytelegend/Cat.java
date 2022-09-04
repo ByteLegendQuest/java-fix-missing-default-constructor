@@ -4,10 +4,6 @@ public class Cat {
     public String name;
 
     public Cat(String name) {
-        name = name;
-    }
-
-    public Cat(String name) {
         this.name = name;
     }
     
