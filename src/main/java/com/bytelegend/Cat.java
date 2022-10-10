@@ -8,7 +8,7 @@ public class Cat {
     }
 
     public Cat() {
-        this("")
+        this("");
     }
 
     @Override
