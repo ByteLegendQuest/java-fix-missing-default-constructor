@@ -5,8 +5,8 @@ public class Cat {
 
     public Cat() {}
 
-    public Cat(String name) {
-        name = name;
+    public Cat(String s) {
+        name = s;
     } 
 
     @Override
