@@ -3,10 +3,8 @@ package com.bytelegend;
 public class Cat {
     public String name;
 
-    public Cat() {}
-
-    public Cat(String _name) {
-        name = _name;
+    public Cat(String name) {
+        name = name;
     }
 
     @Override
