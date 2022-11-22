@@ -4,11 +4,11 @@ public class Cat {
     public String name;
 
     public Cat() {
-        this("");
+
     }
 
     public Cat(String name) {
-        name = name;
+        this.name = name;
     }
 
     @Override
