@@ -6,7 +6,9 @@ public class Cat {
     public Cat(String name) {
         name = name;
     }
-
+    Cat() {
+        this("");
+    }
     @Override
     public String toString() {
         return "Cat(" + name + ")";
