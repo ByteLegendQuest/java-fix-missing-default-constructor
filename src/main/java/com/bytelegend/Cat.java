@@ -6,6 +6,9 @@ public class Cat {
     public Cat(String name) {
         name = name;
     }
+    public Cat() {
+        name = "";
+    }
 
     @Override
     public String toString() {
