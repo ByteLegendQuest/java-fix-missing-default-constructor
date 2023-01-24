@@ -1,10 +1,13 @@
 package com.bytelegend;
 
 public class Cat {
-    public String name;
+    public static String name;
 
     public Cat(String name) {
-        name = name;
+        Cat.name = name;
+    }
+
+    public Cat() {
     }
 
     @Override
